@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "node-sass": "node-sass",
-    "sass": "node-sass -wr styles/main.scss ./style.css"
+    "sass": "node-sass styles/main.scss ./style.css"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,6 @@
     "url": "https://github.com/devWoori/tomorrow-house/issues"
   },
   "homepage": "https://github.com/devWoori/tomorrow-house#readme",
-  "dependencies": {
-    "node-sass": "^7.0.0"
-  },
   "devDependencies": {
     "stylelint-config-recess-order": "^3.0.0",
     "stylelint-config-standard": "^24.0.0",
